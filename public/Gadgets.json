@@ -1,0 +1,217 @@
+[
+    {
+        "product_id": "T001",
+        "product_title": "Smartphone Pro Max",
+        "product_image": "https://i.ibb.co.com/nn56ftk/001.webp",
+        "category": "Smartphones",
+        "price": 1099.99,
+        "description": "A flagship smartphone with advanced camera and performance.",
+        "Specification": [
+            "6.7-inch OLED display",
+            "256GB storage",
+            "Triple-lens 48MP camera",
+            "5000mAh battery",
+            "5G connectivity"
+        ],
+        "availability": true,
+        "rating": 4.8,
+        "Otherfield": {
+            "brand": "TechBrand",
+            "color": "Midnight Black",
+            "warranty": "1 year"
+        }
+    },
+    {
+        "product_id": "T002",
+        "product_title": "Gaming Laptop ZG",
+        "product_image": "https://i.ibb.co.com/bNkHcsr/002.jpg",
+        "category": "Laptops",
+        "price": 1799.99,
+        "description": "High-performance gaming laptop with the latest graphics card.",
+        "Specification": [
+            "15.6-inch QHD display",
+            "1TB SSD",
+            "NVIDIA GeForce RTX 3080",
+            "32GB RAM",
+            "Intel Core i9 processor"
+        ],
+        "availability": true,
+        "rating": 4.7,
+        "Otherfield": {
+            "brand": "GameTech",
+            "color": "Black & Red",
+            "warranty": "2 years"
+        }
+    },
+    {
+        "product_id": "T003",
+        "product_title": "Wireless Noise-Canceling Headphones",
+        "product_image": "https://i.ibb.co.com/7JgtgGd/003.jpg",
+        "category": "Headphones",
+        "price": 299.99,
+        "description": "Premium headphones with active noise cancellation and long battery life.",
+        "Specification": [
+            "Over-ear",
+            "Bluetooth 5.2",
+            "30-hour battery life",
+            "Active noise cancellation",
+            "Quick charge"
+        ],
+        "availability": true,
+        "rating": 4.6,
+        "Otherfield": {
+            "brand": "SoundElite",
+            "color": "Gray",
+            "warranty": "1 year"
+        }
+    },
+    {
+        "product_id": "T004",
+        "product_title": "4K Smart TV",
+        "product_image": "https://i.ibb.co.com/rd0T8Nw/004.png",
+        "category": "Smart Home",
+        "price": 699.99,
+        "description": "Ultra HD 4K Smart TV with built-in streaming apps.",
+        "Specification": [
+            "55-inch 4K UHD display",
+            "HDR10 support",
+            "Smart apps: Netflix, YouTube, Hulu",
+            "Voice control"
+        ],
+        "availability": false,
+        "rating": 4.4,
+        "Otherfield": {
+            "brand": "VisionSmart",
+            "color": "Black",
+            "warranty": "3 years"
+        }
+    },
+    {
+        "product_id": "T005",
+        "product_title": "Smart Speaker with Assistant",
+        "product_image": "https://i.ibb.co.com/HzFdTMh/005.webp",
+        "category": "Smart Home",
+        "price": 129.99,
+        "description": "Smart speaker with voice assistant and room-filling sound.",
+        "Specification": [
+            "Voice control",
+            "Wi-Fi and Bluetooth connectivity",
+            "360-degree sound",
+            "Smart home integration"
+        ],
+        "availability": true,
+        "rating": 4.5,
+        "Otherfield": {
+            "brand": "HomeSound",
+            "color": "White",
+            "warranty": "1 year"
+        }
+    },
+    {
+        "product_id": "T006",
+        "product_title": "Portable Power Bank 20000mAh",
+        "product_image": "https://i.ibb.co.com/yRYNbkC/006.png",
+        "category": "Accessories",
+        "price": 49.99,
+        "description": "High-capacity portable charger with fast charging technology.",
+        "Specification": [
+            "20000mAh capacity",
+            "USB-C and USB-A ports",
+            "Fast charge support",
+            "LED indicator"
+        ],
+        "availability": true,
+        "rating": 4.7,
+        "Otherfield": {
+            "brand": "ChargeMate",
+            "color": "Black",
+            "warranty": "6 months"
+        }
+    },
+    {
+        "product_id": "T007",
+        "product_title": "Wireless Earbuds",
+        "product_image": "https://i.ibb.co.com/c3s4Srs/007.webp",
+        "category": "Headphones",
+        "price": 89.99,
+        "description": "True wireless earbuds with noise isolation and water resistance.",
+        "Specification": [
+            "In-ear",
+            "Bluetooth 5.1",
+            "IPX7 water-resistant",
+            "20-hour battery with case",
+            "Touch controls"
+        ],
+        "availability": true,
+        "rating": 4.3,
+        "Otherfield": {
+            "brand": "TunePods",
+            "color": "White",
+            "warranty": "1 year"
+        }
+    },
+    {
+        "product_id": "T008",
+        "product_title": "Smartwatch GT",
+        "product_image": "https://i.ibb.co.com/B3M2XL7/008.webp",
+        "category": "Wearables",
+        "price": 249.99,
+        "description": "Stylish smartwatch with health tracking and notifications.",
+        "Specification": [
+            "Heart rate monitor",
+            "GPS",
+            "Water-resistant",
+            "Notifications",
+            "7-day battery life"
+        ],
+        "availability": false,
+        "rating": 4.4,
+        "Otherfield": {
+            "brand": "WatchPro",
+            "color": "Black",
+            "warranty": "1 year"
+        }
+    },
+    {
+        "product_id": "T009",
+        "product_title": "VR Headset",
+        "product_image": "https://i.ibb.co.com/LhpY65z/009.jpg",
+        "category": "Gaming",
+        "price": 399.99,
+        "description": "Immersive VR headset with high-resolution display.",
+        "Specification": [
+            "2560 x 1440 resolution",
+            "90Hz refresh rate",
+            "6DoF tracking",
+            "Built-in speakers"
+        ],
+        "availability": true,
+        "rating": 4.6,
+        "Otherfield": {
+            "brand": "VirtualPlay",
+            "color": "Black",
+            "warranty": "2 years"
+        }
+    },
+    {
+        "product_id": "T010",
+        "product_title": "Portable Projector",
+        "product_image": "https://i.ibb.co.com/KmjWXfg/010.jpg",
+        "category": "Projectors",
+        "price": 249.99,
+        "description": "Compact portable projector with 1080p support.",
+        "Specification": [
+            "1080p HD resolution",
+            "Built-in speaker",
+            "HDMI and USB ports",
+            "Wi-Fi connectivity"
+        ],
+        "availability": true,
+        "rating": 4.3,
+        "Otherfield": {
+            "brand": "VisionLite",
+            "color": "Gray",
+            "warranty": "1 year"
+        }
+    }
+]

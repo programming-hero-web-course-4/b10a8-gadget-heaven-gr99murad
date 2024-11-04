@@ -1,0 +1,34 @@
+[
+    {
+        "id": "1",
+        "category": "Smartphones"
+    },
+    {
+        "id": "2",
+        "category": "Laptops"
+    },
+    {
+        "id": "3",
+        "category": "Headphones"
+    },
+    {
+        "id": "4",
+        "category": "Smart Home"
+    },
+    {
+        "id": "5",
+        "category": "Accessories"
+    },
+    {
+        "id": "6",
+        "category": "Watch"
+    },
+    {
+        "id": "7",
+        "category": "VR"
+    },
+    {
+        "id": "8",
+        "category": "Projectors"
+    }
+]
