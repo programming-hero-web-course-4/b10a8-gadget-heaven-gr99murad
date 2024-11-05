@@ -1,6 +1,7 @@
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHeart } from '@fortawesome/free-solid-svg-icons';
+import { NavLink } from 'react-router-dom';
 
 const Navbar = () => {
     return (
@@ -24,18 +25,32 @@ const Navbar = () => {
       <ul
         tabIndex={0}
         className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
-       <li><a>Home</a></li>
-      <li><a>Statistics</a></li>
-        <li><a>Dashboard</a></li>
+       <NavLink to="/" end className={({isActive}) => 
+       isActive ? 'text-orange-500 font-semibold border-b-2 border-orange-500' : 'hover:text-orange-500'
+      }>Home</NavLink>
+      <NavLink to="/statistics" className={({isActive}) => 
+       isActive ? 'text-orange-500 font-semibold border-b-2 border-orange-500' : 'hover:text-orange-500'
+      }>Statistics</NavLink>
+       <NavLink to="/dashboard" className={({isActive}) => 
+       isActive ? 'text-orange-500 font-semibold border-b-2 border-orange-500' : 'hover:text-orange-500'
+      }>Dashboard</NavLink>
+      
+        
       </ul>
     </div>
     <a className="btn btn-ghost text-xl">Gadget Heaven</a>
   </div>
   <div className="navbar-center hidden lg:flex">
-    <ul className="menu menu-horizontal px-1">
-      <li><a>Home</a></li>
-      <li><a>Statistics</a></li>
-        <li><a>Dashboard</a></li>
+    <ul className="menu menu-horizontal px-1 flex gap-5  ">
+    <NavLink to="/" end className={({isActive}) => 
+       isActive ? 'text-orange-500 font-semibold border-b-2 border-orange-500' : 'hover:text-orange-500'
+      }>Home</NavLink>
+      <NavLink to="/statistics" className={({isActive}) => 
+       isActive ? 'text-orange-500 font-semibold border-b-2 border-orange-500' : 'hover:text-orange-500'
+      }>Statistics</NavLink>
+       <NavLink to="/dashboard" className={({isActive}) => 
+       isActive ? 'text-orange-500 font-semibold border-b-2 border-orange-500' : 'hover:text-orange-500'
+      }>Dashboard</NavLink>
     </ul>
   </div>
   <div className="navbar-end">
