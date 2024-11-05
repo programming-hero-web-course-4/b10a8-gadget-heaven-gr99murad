@@ -1,12 +1,12 @@
 
-import { useLoaderData } from "react-router-dom";
 import Banner from "../Components/Banner";
+import CardSection from "../Components/CardSection";
+import Product from "../Components/Product";
 import bannerImg from "../assets/banner.jpg"
-import SideCategory from "../Components/sideCategory";
+
 
 
 const Home = () => {
-    const Categories = useLoaderData();
     return (
         <div className="">
            <Banner></Banner>
@@ -18,8 +18,13 @@ const Home = () => {
                />
             </div>
 
+          <CardSection></CardSection>
+            
+         
+             
 
-            <SideCategory></SideCategory>
+
+             
         </div>
     );
 };

@@ -1,6 +1,6 @@
 [
     {
-        "product_id": "T001",
+        "product_id": 1,
         "product_title": "Smartphone Pro Max",
         "product_image": "https://i.ibb.co.com/nn56ftk/001.webp",
         "category": "Smartphones",
@@ -22,7 +22,7 @@
         }
     },
     {
-        "product_id": "T002",
+        "product_id": 2,
         "product_title": "Gaming Laptop ZG",
         "product_image": "https://i.ibb.co.com/bNkHcsr/002.jpg",
         "category": "Laptops",
@@ -44,7 +44,7 @@
         }
     },
     {
-        "product_id": "T003",
+        "product_id": 3,
         "product_title": "Wireless Noise-Canceling Headphones",
         "product_image": "https://i.ibb.co.com/7JgtgGd/003.jpg",
         "category": "Headphones",
@@ -66,7 +66,7 @@
         }
     },
     {
-        "product_id": "T004",
+        "product_id": 4,
         "product_title": "4K Smart TV",
         "product_image": "https://i.ibb.co.com/rd0T8Nw/004.png",
         "category": "Smart Home",
@@ -87,7 +87,7 @@
         }
     },
     {
-        "product_id": "T005",
+        "product_id": 5,
         "product_title": "Smart Speaker with Assistant",
         "product_image": "https://i.ibb.co.com/HzFdTMh/005.webp",
         "category": "Smart Home",
@@ -108,11 +108,11 @@
         }
     },
     {
-        "product_id": "T006",
+        "product_id": 6,
         "product_title": "Portable Power Bank 20000mAh",
         "product_image": "https://i.ibb.co.com/yRYNbkC/006.png",
         "category": "Accessories",
-        "price": 49.99,
+        "price": 699.99,
         "description": "High-capacity portable charger with fast charging technology.",
         "Specification": [
             "20000mAh capacity",
@@ -129,7 +129,7 @@
         }
     },
     {
-        "product_id": "T007",
+        "product_id": 7,
         "product_title": "Wireless Earbuds",
         "product_image": "https://i.ibb.co.com/c3s4Srs/007.webp",
         "category": "Headphones",
@@ -151,7 +151,7 @@
         }
     },
     {
-        "product_id": "T008",
+        "product_id": 8,
         "product_title": "Smartwatch GT",
         "product_image": "https://i.ibb.co.com/B3M2XL7/008.webp",
         "category": "Wearables",
@@ -173,7 +173,7 @@
         }
     },
     {
-        "product_id": "T009",
+        "product_id": 9,
         "product_title": "VR Headset",
         "product_image": "https://i.ibb.co.com/LhpY65z/009.jpg",
         "category": "Gaming",
@@ -194,7 +194,7 @@
         }
     },
     {
-        "product_id": "T010",
+        "product_id": 10,
         "product_title": "Portable Projector",
         "product_image": "https://i.ibb.co.com/KmjWXfg/010.jpg",
         "category": "Projectors",
