@@ -1,12 +1,13 @@
 
+import { Outlet, useLoaderData } from "react-router-dom";
 import Banner from "../Components/Banner";
-import CardSection from "../Components/CardSection";
-import Product from "../Components/Product";
+import SideCategory from "../Components/SideCategory";
 import bannerImg from "../assets/banner.jpg"
 
 
 
 const Home = () => {
+  const categories = useLoaderData();
     return (
         <div className="">
            <Banner></Banner>
@@ -17,8 +18,13 @@ const Home = () => {
                className="w-full h-96 rounded-2xl"
                />
             </div>
-
-          <CardSection></CardSection>
+          
+          <div className="flex gap-8 mx-20 my-20">
+          <SideCategory categories={categories}></SideCategory>
+          <Outlet></Outlet>
+        
+          </div>
+          
             
          
              

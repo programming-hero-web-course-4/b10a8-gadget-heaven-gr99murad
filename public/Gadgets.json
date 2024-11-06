@@ -213,5 +213,28 @@
             "color": "Gray",
             "warranty": "1 year"
         }
+    },
+    
+    {
+        "product_id": 11,
+        "product_title": "Smartphone pro",
+        "product_image": "https://i.ibb.co.com/nn56ftk/001.webp",
+        "category": "Smartphones",
+        "price": 24499.99,
+        "description": "A flagship smartphone with advanced camera and performance.",
+        "Specification": [
+            "6.7-inch OLED display",
+            "256GB storage",
+            "Triple-lens 48MP camera",
+            "5000mAh battery",
+            "5G connectivity"
+        ],
+        "availability": true,
+        "rating": 4.8,
+        "Otherfield": {
+            "brand": "TechBrand",
+            "color": "Midnight Black",
+            "warranty": "1 year"
+        }
     }
 ]

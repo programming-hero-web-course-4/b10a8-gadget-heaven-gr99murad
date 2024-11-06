@@ -4,6 +4,8 @@ import { Outlet } from 'react-router-dom';
 import Footer from '../Footer/Footer';
 
 const MainLayouts = () => {
+
+    
     return (
         <div>
             <Navbar></Navbar>

@@ -1,30 +1,29 @@
-import { useEffect, useState } from "react";
-import Product from "./Product";
-
-
+import React, { useEffect, useState } from 'react';
+import { useLoaderData, useParams } from 'react-router-dom';
+import Product from './Product';
 
 const CardSection = () => {
-   const [products, setProducts] = useState([]);
 
-   useEffect(() => {
-
-    fetch('./gadgets.json')
-    .then(res => res.json())
-    .then(data => setProducts(data))
-   },[]);
-
+  const data = useLoaderData()
+  const {category} = useParams();
+  const [products, setProducts] = useState([]);
+  useEffect(() => {
+    const filteredByCategory = category
+     ? data.filter((product) => product.category === category) 
+     : data;
+    
+    setProducts(filteredByCategory);
+  },[category,data])
   
+ 
   return (
-    <div className="">
-      <h1 className="text-4xl font-bold text-center my-8">
-        Explore Cutting-Edge Gadgets
-      </h1>
+    <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-7'>
+      {
+        products.map((product) => (
+          <Product key={product.product_id} product={product}></Product>
+
+        ))}
       
-      <div className=" mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
-        {
-            products.map(product => <Product product ={product} key={product.product_id}></Product>)
-        }
-      </div>
     </div>
   );
 };
