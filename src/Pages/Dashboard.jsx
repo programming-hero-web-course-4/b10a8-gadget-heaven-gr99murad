@@ -3,6 +3,7 @@ import Heading from "../Components/Heading";
 import { useNavigate } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faXmark,faShoppingCart } from "@fortawesome/free-solid-svg-icons";
+import { toast, ToastContainer } from "react-toastify";
 const Dashboard = () => {
   const [activeTab, setActiveTab] = useState("cart");
   const [cartItems, setCartItems] = useState([]);
@@ -47,6 +48,7 @@ const Dashboard = () => {
     );
     setCartItems(updatedCart);
     localStorage.setItem("cartItems", JSON.stringify(updatedCart));
+    toast.success("Remove cart item");
 
     window.dispatchEvent(new Event ('storageUpdated'));
   };
@@ -57,6 +59,7 @@ const Dashboard = () => {
     );
     setWishlistItems(updatedWishlist);
     localStorage.setItem("wishlistItems", JSON.stringify(updatedWishlist));
+    toast.success("Remove Wishlist");
 
     window.dispatchEvent(new Event ('storageUpdated'));
   };
@@ -66,7 +69,8 @@ const Dashboard = () => {
     navigate("/");
   };
   return (
-    <div className="">
+    <div className="my-14">
+      <ToastContainer position="top-center" autoClose={2000}></ToastContainer>
       <div className="bg-[#9538E2] mb-10">
         <Heading
           title="Dashboard"

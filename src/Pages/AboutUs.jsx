@@ -5,7 +5,7 @@ import Heading from "../Components/Heading";
 const AboutUs = () => {
   const testimonial = useLoaderData();
   return (
-    <div className=" my-10">
+    <div className=" my-14">
         <div className="bg-[#9538E2]">
         <Heading
         title="Our Story"

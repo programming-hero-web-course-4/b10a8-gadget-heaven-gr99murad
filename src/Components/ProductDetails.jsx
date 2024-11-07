@@ -57,7 +57,7 @@ const ProductDetails = () => {
   };
 
   return (
-    <div >
+    <div className="my-14" >
       <div className="bg-[#9538E2] pb-32 ">
 
       <Heading
@@ -74,7 +74,7 @@ const ProductDetails = () => {
     <div className="card card-side bg-base-100 shadow-xl  -mt-32 ml-24 md:ml-40 lg:ml-72 mb-10 p-6 border rounded-2xl w-3/5">
       
 
-      <ToastContainer></ToastContainer>
+      <ToastContainer position="top-center" autoClose={2000}></ToastContainer>
 
       <figure>
         <img

@@ -9,7 +9,7 @@ import bannerImg from "../assets/banner.jpg"
 const Home = () => {
   const categories = useLoaderData();
     return (
-        <div className="">
+        <div className="my-10">
            <Banner></Banner>
         
             <div className=" -mt-60 ml-24 md:ml-40 lg:ml-72 mb-10 p-6 border rounded-2xl w-3/5">
