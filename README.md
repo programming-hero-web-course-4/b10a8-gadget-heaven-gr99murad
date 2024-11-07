@@ -21,3 +21,4 @@ https://github.com/ProgrammingHero1/B10-A8-gadget-heaven/blob/main/Batch-10_Assi
 2.**Shopping Cart & Wishlist system**
 3.**Product Filtering**
 4.**Toast Notifications**
+5.**Details Product page**
