@@ -4,6 +4,7 @@ import './index.css'
 
 
 import {
+  Await,
   createBrowserRouter,
   RouterProvider,
 } from "react-router-dom";
@@ -14,6 +15,8 @@ import Home from './Pages/Home.jsx';
 import ErrorPage from './Components/Errorpage.jsx';
 import CardSection from './Components/CardSection.jsx';
 import AllProducts from './Components/AllProducts.jsx';
+import ProductDetails from './Components/ProductDetails.jsx';
+import AboutUs from './Pages/AboutUs.jsx';
 
 
 
@@ -53,6 +56,19 @@ const router = createBrowserRouter([
         path:"/dashboard",
         element: <Dashboard></Dashboard>,
       },
+      {
+        path:"/productdetails/:product_id",
+        element: <ProductDetails></ProductDetails>,
+        loader: () => fetch('../gadgets.json'),
+        
+      },
+      {
+          path:"/about",
+          element: <AboutUs></AboutUs>,
+          loader: () => fetch('../testimonial.json'),
+
+      },
+      
     ]
   }
 ])

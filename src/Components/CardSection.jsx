@@ -17,13 +17,18 @@ const CardSection = () => {
   
  
   return (
-    <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-7'>
-      {
-        products.map((product) => (
-          <Product key={product.product_id} product={product}></Product>
-
-        ))}
-      
+    <div>
+      {products.length > 0 ? (
+        <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-7'>
+        {products.map((product) => (
+            <Product key={product.product_id} product={product}></Product>
+  
+          ))}
+        
+      </div>
+      ):(
+          <div>Not available data</div>
+      )}
     </div>
   );
 };

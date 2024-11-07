@@ -1,0 +1,18 @@
+[
+    {
+      "id": 1,
+      "name": "John Doe",
+      "feedback": "GadgetHaven has the best gadgets and amazing customer support!"
+    },
+    {
+      "id": 2,
+      "name": "Jane Smith",
+      "feedback": "Wide range of products and quick delivery. Highly recommend!"
+    },
+    {
+      "id": 3,
+      "name": "Michael Lee",
+      "feedback": "Great prices and quality gadgets. My go-to store for tech!"
+    }
+  ]
+  

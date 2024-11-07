@@ -5,6 +5,7 @@
         "product_image": "https://i.ibb.co.com/nn56ftk/001.webp",
         "category": "Smartphones",
         "price": 1099.99,
+        "product_available": "In Stock",
         "description": "A flagship smartphone with advanced camera and performance.",
         "Specification": [
             "6.7-inch OLED display",
@@ -13,6 +14,7 @@
             "5000mAh battery",
             "5G connectivity"
         ],
+        
         "availability": true,
         "rating": 4.8,
         "Otherfield": {
@@ -27,6 +29,7 @@
         "product_image": "https://i.ibb.co.com/bNkHcsr/002.jpg",
         "category": "Laptops",
         "price": 1799.99,
+        "product_available": "In Stock",
         "description": "High-performance gaming laptop with the latest graphics card.",
         "Specification": [
             "15.6-inch QHD display",
@@ -35,6 +38,7 @@
             "32GB RAM",
             "Intel Core i9 processor"
         ],
+        
         "availability": true,
         "rating": 4.7,
         "Otherfield": {
@@ -49,6 +53,7 @@
         "product_image": "https://i.ibb.co.com/7JgtgGd/003.jpg",
         "category": "Headphones",
         "price": 299.99,
+        "product_available": "In Stock",
         "description": "Premium headphones with active noise cancellation and long battery life.",
         "Specification": [
             "Over-ear",
@@ -57,6 +62,7 @@
             "Active noise cancellation",
             "Quick charge"
         ],
+        
         "availability": true,
         "rating": 4.6,
         "Otherfield": {
@@ -71,6 +77,7 @@
         "product_image": "https://i.ibb.co.com/rd0T8Nw/004.png",
         "category": "Smart Home",
         "price": 699.99,
+        "product_available": "Out of Stock",
         "description": "Ultra HD 4K Smart TV with built-in streaming apps.",
         "Specification": [
             "55-inch 4K UHD display",
@@ -78,6 +85,7 @@
             "Smart apps: Netflix, YouTube, Hulu",
             "Voice control"
         ],
+       
         "availability": false,
         "rating": 4.4,
         "Otherfield": {
@@ -92,6 +100,7 @@
         "product_image": "https://i.ibb.co.com/HzFdTMh/005.webp",
         "category": "Smart Home",
         "price": 129.99,
+        "product_available": "In Stock",
         "description": "Smart speaker with voice assistant and room-filling sound.",
         "Specification": [
             "Voice control",
@@ -99,6 +108,7 @@
             "360-degree sound",
             "Smart home integration"
         ],
+        
         "availability": true,
         "rating": 4.5,
         "Otherfield": {
@@ -113,6 +123,7 @@
         "product_image": "https://i.ibb.co.com/yRYNbkC/006.png",
         "category": "Accessories",
         "price": 699.99,
+        "product_available": "Out of Stock",
         "description": "High-capacity portable charger with fast charging technology.",
         "Specification": [
             "20000mAh capacity",
@@ -120,6 +131,7 @@
             "Fast charge support",
             "LED indicator"
         ],
+      
         "availability": true,
         "rating": 4.7,
         "Otherfield": {
@@ -134,6 +146,7 @@
         "product_image": "https://i.ibb.co.com/c3s4Srs/007.webp",
         "category": "Headphones",
         "price": 89.99,
+        "product_available": "In Stock",
         "description": "True wireless earbuds with noise isolation and water resistance.",
         "Specification": [
             "In-ear",
@@ -142,6 +155,7 @@
             "20-hour battery with case",
             "Touch controls"
         ],
+      
         "availability": true,
         "rating": 4.3,
         "Otherfield": {
@@ -156,6 +170,7 @@
         "product_image": "https://i.ibb.co.com/B3M2XL7/008.webp",
         "category": "Wearables",
         "price": 249.99,
+        "product_available": "In Stock",
         "description": "Stylish smartwatch with health tracking and notifications.",
         "Specification": [
             "Heart rate monitor",
@@ -164,6 +179,7 @@
             "Notifications",
             "7-day battery life"
         ],
+        
         "availability": false,
         "rating": 4.4,
         "Otherfield": {
@@ -178,6 +194,7 @@
         "product_image": "https://i.ibb.co.com/LhpY65z/009.jpg",
         "category": "Gaming",
         "price": 399.99,
+        "product_available": "In Stock",
         "description": "Immersive VR headset with high-resolution display.",
         "Specification": [
             "2560 x 1440 resolution",
@@ -185,6 +202,7 @@
             "6DoF tracking",
             "Built-in speakers"
         ],
+       
         "availability": true,
         "rating": 4.6,
         "Otherfield": {
@@ -199,6 +217,7 @@
         "product_image": "https://i.ibb.co.com/KmjWXfg/010.jpg",
         "category": "Projectors",
         "price": 249.99,
+        "product_available": "In Stock",
         "description": "Compact portable projector with 1080p support.",
         "Specification": [
             "1080p HD resolution",
@@ -206,6 +225,7 @@
             "HDMI and USB ports",
             "Wi-Fi connectivity"
         ],
+      
         "availability": true,
         "rating": 4.3,
         "Otherfield": {
@@ -221,6 +241,7 @@
         "product_image": "https://i.ibb.co.com/nn56ftk/001.webp",
         "category": "Smartphones",
         "price": 24499.99,
+        "product_available": "In Stock",
         "description": "A flagship smartphone with advanced camera and performance.",
         "Specification": [
             "6.7-inch OLED display",
@@ -229,6 +250,7 @@
             "5000mAh battery",
             "5G connectivity"
         ],
+        
         "availability": true,
         "rating": 4.8,
         "Otherfield": {

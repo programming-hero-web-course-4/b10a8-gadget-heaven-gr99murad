@@ -19,7 +19,7 @@ const Product = ({product}) => {
         <p>${price}</p>
         <div className="card-actions">
           <button>
-          <NavLink to={`/Productdetails/${product.product_id}`} className="btn text-[#9538E2] ">View Details</NavLink>
+          <NavLink to={`/productdetails/${product.product_id}`} className="btn text-[#9538E2] ">View Details</NavLink>
           </button>
         </div>
       </div>
