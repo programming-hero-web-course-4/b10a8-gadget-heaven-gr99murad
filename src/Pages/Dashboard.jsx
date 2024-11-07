@@ -4,6 +4,7 @@ import { useNavigate } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faXmark,faShoppingCart } from "@fortawesome/free-solid-svg-icons";
 import { toast, ToastContainer } from "react-toastify";
+import image from '../assets/Group.png';
 const Dashboard = () => {
   const [activeTab, setActiveTab] = useState("cart");
   const [cartItems, setCartItems] = useState([]);
@@ -188,6 +189,7 @@ const Dashboard = () => {
       {isModalOpen && (
         <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50 z-50">
           <div className="modal-box bg-white p-6 rounded-lg shadow-lg text-center max-w-md ">
+            <img className="mx-auto" src={image} alt="" />
             <h2 className="text-2xl font-bold text-[#9538E2]">
               Payment Successfully
             </h2>
