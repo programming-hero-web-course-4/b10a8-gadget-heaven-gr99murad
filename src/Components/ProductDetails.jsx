@@ -106,7 +106,7 @@ const ProductDetails = () => {
           <p>{product.rating}</p>
          </div>
 
-        <div className="flex gap-4">
+        <div className="flex gap-4 flex-col md:flex-row ">
         <button onClick={addToCart} className="btn">
           Add to cart <FontAwesomeIcon icon={faShoppingCart}></FontAwesomeIcon> 
         </button>
