@@ -41,7 +41,7 @@ const Dashboard = () => {
     const sortedCart = [...cartItems].sort((a, b) => b.price - a.price);
     setCartItems(sortedCart);
   };
-
+// remove cart item
   const removeItemCart = (productId) => {
     const updatedCart = cartItems.filter(
       (item) => item.product_id !== productId
@@ -52,14 +52,14 @@ const Dashboard = () => {
 
     window.dispatchEvent(new Event ('storageUpdated'));
   };
-
+//  remove wishlist item
   const removeItemWishlist = (productId) => {
     const updatedWishlist = wishlistItems.filter(
       (item) => item.product_id !== productId
     );
     setWishlistItems(updatedWishlist);
     localStorage.setItem("wishlistItems", JSON.stringify(updatedWishlist));
-    toast.success("Remove Wishlist");
+    toast.success("Remove Wishlist Item");
 
     window.dispatchEvent(new Event ('storageUpdated'));
   };

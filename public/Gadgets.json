@@ -258,5 +258,76 @@
             "color": "Midnight Black",
             "warranty": "1 year"
         }
+    },
+    {
+        "product_id": 12,
+        "product_title": "Portable Projector",
+        "product_image": "https://i.ibb.co.com/KmjWXfg/010.jpg",
+        "category": "Projectors",
+        "price": 2449.99,
+        "product_available": "In Stock",
+        "description": "Compact portable projector with 1080p support.",
+        "Specification": [
+            "1080p HD resolution",
+            "Built-in speaker",
+            "HDMI and USB ports",
+            "Wi-Fi connectivity"
+        ],
+      
+        "availability": true,
+        "rating": 4.3,
+        "Otherfield": {
+            "brand": "VisionLite",
+            "color": "Gray",
+            "warranty": "1 year"
+        }
+    },
+    {
+        "product_id": 13,
+        "product_title": "Smartwatch GT",
+        "product_image": "https://i.ibb.co.com/B3M2XL7/008.webp",
+        "category": "Wearables",
+        "price": 2249.99,
+        "product_available": "In Stock",
+        "description": "Stylish smartwatch with health tracking and notifications.",
+        "Specification": [
+            "Heart rate monitor",
+            "GPS",
+            "Water-resistant",
+            "Notifications",
+            "7-day battery life"
+        ],
+        
+        "availability": false,
+        "rating": 4.4,
+        "Otherfield": {
+            "brand": "WatchPro",
+            "color": "Black",
+            "warranty": "1 year"
+        }
+    },
+    {
+        "product_id": 14,
+        "product_title": "Gaming Laptop TUF",
+        "product_image": "https://i.ibb.co.com/bNkHcsr/002.jpg",
+        "category": "Laptops",
+        "price": 51799.99,
+        "product_available": "In Stock",
+        "description": "High-performance gaming laptop with the latest graphics card.",
+        "Specification": [
+            "15.6-inch QHD display",
+            "1TB SSD",
+            "NVIDIA GeForce RTX 3080",
+            "32GB RAM",
+            "Intel Core i9 processor"
+        ],
+        
+        "availability": true,
+        "rating": 4.7,
+        "Otherfield": {
+            "brand": "GameTech",
+            "color": "Black & Red",
+            "warranty": "2 years"
+        }
     }
 ]
